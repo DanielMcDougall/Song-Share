@@ -1,0 +1,83 @@
+body {
+    background-color: white;
+  }
+
+#logo {
+    height:20%;
+    width:10%;
+    float: left;
+}
+
+hr {
+
+  width:100%;
+}
+.sidenav {
+    height: 100%;
+    width: 10%;
+    position: fixed;
+    top: 20%;
+    left: 0;
+    background-color: rgb(54, 54, 54);
+  }
+  
+.sidenav a{
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffaf47;
+    display: block;
+    border: none;
+    background: none;
+    width:100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+  }
+  
+
+.sidenav a:hover, .dropdown-btn:hover {
+    color: #f1f1f1;
+  }
+  
+
+.main {
+    margin-left: 200px;
+    font-size: 18px; 
+    padding: 0px 10px;
+  }
+  
+
+
+
+  /* Style the search field */
+form.search input[type=text] {
+  margin-top: 3.6%;
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+/* Style the submit button */
+form.search button {
+  margin-top:3.6%;
+  float: right;
+  width: 9.8%;
+  padding: 10px;
+  background: #8F73F0;
+  color: black;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+form.search button:hover {
+  background: #0b7dda;
+}
+
+
+  
