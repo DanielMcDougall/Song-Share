@@ -23,13 +23,19 @@
             <a href="songwriting.php">Songwriting</a>
             <a href="music.php">Music</a>
             <a href="multimedia.php">Multimedia</a>
-            <a href="albumartwork.php">Album Artwork</a>
+            <a href="aboutus.php">About Us</a>
         </div>
+
+        <div class="contents">
+
+        </div>
+
+        <footer id="footer">
+        <p> Author: Daniel McDougall        About Us    Legal   Help</p>
+
+        </footer>
     </div>
 </body>
 
 </html>
 
-<?php 
-include_once("index.html"); 
-?>
